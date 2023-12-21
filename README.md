@@ -58,22 +58,6 @@ This dataset contains credit card transactions made by European cardholders in t
 
 - **Accuracy:** 98.59%
 
-- **Classification Report:**
-  ```
-                 precision    recall  f1-score   support
-           0       0.99      0.98      0.99    132815
-           1       0.98      0.99      0.99    132814
-    accuracy                           0.99    265629
-   macro avg       0.99      0.99      0.99    265629
-weighted avg       0.99      0.99      0.99    265629
-  ```
-
-- **Confusion Matrix:**
-  ```
- [[130652   2163]
- [  1572 131242]]
-  ```
-
 - **Key Observations:**
   - The decision tree model performs admirably with high precision, recall, and F1-score for both classes.
   - A minor number of false positives and false negatives, as indicated by the confusion matrix, demonstrate the model's robustness.
@@ -82,22 +66,6 @@ weighted avg       0.99      0.99      0.99    265629
 
 - **Test Accuracy:** 99.74%
 
-- **Test Classification Report:**
-  ```
-               precision    recall  f1-score   support
-           0       1.00      1.00      1.00    132815
-           1       1.00      1.00      1.00    132814
-    accuracy                           1.00    265629
-   macro avg       1.00      1.00      1.00    265629
-weighted avg       1.00      1.00      1.00    265629
-  ```
-
-- **Test Confusion Matrix:**
-  ```
- [[132653    162]
- [   521 132293]]
-  ```
-
 - **Key Observations:**
   - The Random Forest model showcases exceptional performance, achieving near-perfect accuracy and precision for both classes.
   - The confusion matrix indicates minimal misclassifications, highlighting the model's effectiveness.
@@ -105,22 +73,6 @@ weighted avg       1.00      1.00      1.00    265629
 #### 3. XGBoost:
 
 - **Test Accuracy:** 99.86%
-
-- **Test Classification Report:**
-  ```
-               precision    recall  f1-score   support
-           0       1.00      1.00      1.00    132815
-           1       1.00      1.00      1.00    132814
-    accuracy                           1.00    265629
-   macro avg       1.00      1.00      1.00    265629
-weighted avg       1.00      1.00      1.00    265629
-  ```
-
-- **Test Confusion Matrix:**
-  ```
- [[132492    323]
- [    39 132775]]
-  ```
 
 - **Key Observations:**
   - The XGBoost model demonstrates outstanding performance, achieving the highest accuracy among the evaluated models.
@@ -144,4 +96,4 @@ weighted avg       1.00      1.00      1.00    265629
 
 - The decision tree model, while robust, is surpassed by the ensemble models in achieving higher accuracy and precision.
 
-- Continuous monitoring, periodic retraining, and model interpretability assessments are recommended for maintaining optimal fraud detection capabilities
+- Continuous monitoring, periodic retraining, and model interpretability assessments are recommended for maintaining optimal fraud detection capabilities.
